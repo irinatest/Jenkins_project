@@ -40,7 +40,8 @@ public class LogInTest {
     	String username="lola";
     	String password="lola";
     	logInPageSteps.login(username, password);
-    	Assert.assertTrue(mainPageSteps.verifyPageTitle());    	
+    	Assert.assertTrue(mainPageSteps.verifyPageTitle()); 
+    	System.out.println("succes!");
     }
 
 } 
