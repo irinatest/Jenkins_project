@@ -4,7 +4,7 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.ManagedPages;
 import net.thucydides.core.annotations.Steps;
