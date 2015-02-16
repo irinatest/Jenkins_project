@@ -6,7 +6,6 @@ import java.awt.event.KeyEvent;
 
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.ManagedPages;
-import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.junit.runners.ThucydidesRunner;
@@ -50,13 +49,13 @@ public class UploadTest {
     UploadCompletePageSteps uploadCompletePageSteps;
  
     @Test
-    @Pending
     public void uploadTextTest() throws AWTException, InterruptedException {
     	
     	homePageSteps.enterApp();
     	String username="lola";
-    	String password="lola";
+    	String password="la";
     	logInPageSteps.login(username, password);
+    	mainPageSteps.verifyPageTitle();
     	mainPageSteps.clickOnUploadButton();
     	
     	uploadPageSteps.clickButtonChooseFile();

@@ -7,6 +7,7 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
 	LogInTest.class,
 	AddNewSnippetTest.class,
+	UploadTest.class,
 	})
 @RunWith(Suite.class)
 public class TestSuite {
