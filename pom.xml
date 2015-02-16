@@ -31,7 +31,7 @@
             <groupId>net.thucydides</groupId>
             <artifactId>thucydides-junit</artifactId>
             <version>${thucydides.version}</version>
-            <scope>test</scope>
+<!--             <scope>test</scope> -->
         </dependency>
         <dependency>
             <groupId>junit</groupId>
