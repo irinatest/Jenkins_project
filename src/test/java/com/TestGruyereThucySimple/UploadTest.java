@@ -4,13 +4,14 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 
-import org.junit.Assert;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.ManagedPages;
+import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.junit.runners.ThucydidesRunner;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
@@ -49,6 +50,7 @@ public class UploadTest {
     UploadCompletePageSteps uploadCompletePageSteps;
  
     @Test
+    @Pending
     public void uploadTextTest() throws AWTException, InterruptedException {
     	
     	homePageSteps.enterApp();
