@@ -61,9 +61,10 @@
                 <configuration>
 <!--                 <skip>true</skip> -->
                     <includes>
-                        <include>**/*Test.java</include>
-                        <include>**/Test*.java</include>
-                        <include>**/When*.java</include>
+                        <include>**/*Suite.java</include>
+<!--                         <include>**/Test.java</include> -->
+<!--                         <include>**/Test*.java</include> -->
+<!--                         <include>**/When*.java</include> -->
                     </includes>
                     <argLine>-Xmx512m</argLine>
                     <parallel>classes</parallel>
