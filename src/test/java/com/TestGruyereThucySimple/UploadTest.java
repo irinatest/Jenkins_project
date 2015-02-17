@@ -3,6 +3,7 @@ package com.TestGruyereThucySimple;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
+import net.thucydides.core.annotations.Pending;
 
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.ManagedPages;
@@ -49,6 +50,7 @@ public class UploadTest {
     UploadCompletePageSteps uploadCompletePageSteps;
  
     @Test
+    @Pending
     public void uploadTextTest() throws AWTException, InterruptedException {
     	
     	homePageSteps.enterApp();
